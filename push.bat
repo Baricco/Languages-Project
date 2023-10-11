@@ -11,6 +11,9 @@ git push
 
 @echo off
 
+echo.
+echo.
+echo.
 echo git push command was executed
 
 pause > NUL
