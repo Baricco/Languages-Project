@@ -10,4 +10,7 @@ git commit -m "%MSG%"
 git push
 
 @echo off
+
+echo git push command was executed
+
 pause > NUL
