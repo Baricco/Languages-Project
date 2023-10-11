@@ -9,4 +9,5 @@ git commit -m "%MSG%"
 
 git push
 
+@echo off
 pause > NUL
