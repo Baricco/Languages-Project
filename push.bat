@@ -8,3 +8,7 @@ set /p MSG=""
 git commit -m "%MSG%"
 
 git push
+
+echo Push Command was Executed
+
+pause > NUL
