@@ -1,6 +1,6 @@
 @echo off
 
-ping -n 2 -w 700 8.8.8.8 | find "TTL=" > NUL
+ping -n 2 -w 700 8.8.8.8 | findstr /i "TTL=" > NUL
 IF %ERRORLEVEL% EQU 0 (
 	git pull
 	SET internet=git pull command was executed
